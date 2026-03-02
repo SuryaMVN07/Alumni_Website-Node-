@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - CRRAO Alumni</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <!-- TOP BANNER (Logo on Left, Text Center, Photo on Right) -->
+    <div class="top-banner">
+      <div class="container top-banner-container">
+        
+        <div class="banner-left">
+          <a href="home.html"><img src="crraologo.jpeg" alt="CRRAO Logo" class="banner-logo"></a>
+        </div>
+        
+        <div class="banner-center">
+          <h1 class="institute-name">C.R.Rao Advanced Institute of Mathematics,<br>Statistics and Computer Science (AIMSCS)</h1>
+          <p class="institute-address">University of Hyderabad Campus, Gachibowli, Hyderabad – 500 046</p>
+        </div>
+        
+        <div class="banner-right">
+          <img src="https://crraoaimscs.res.in/assets/team/CR_RAO_Profile.png" alt="Prof. C.R. Rao" class="banner-photo">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+          <li><a href="home.html" class="active">HOME</a></li>
+          <li class="has-dropdown">
+            <a href="#">PROFILE <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="profile.html">UPDATE PROFILE</a>
+              <a href="signin.html">SIGN IN</a>
+              <a href="register.html">REGISTER</a>
+            </div>
+          </li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="card hero-card">
+      <h1>Welcome to the Alumni Platform</h1>
+      <p>Connect with your fellow alumni from the C.R. Rao Advanced Institute of Mathematics, Statistics and Computer Science. Stay updated, collaborate on research, and expand your professional network.</p>
+      <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+        <a href="register.html" class="btn">Register Now <i class="fas fa-arrow-right"></i></a>
+        <a href="signin.html" class="btn btn-outline">Sign In</a>
+      </div>
+    </div>
+
+    <div class="card" style="animation-delay: 0.2s; text-align: center; background: rgba(255, 255, 255, 0.9); border: 2px solid #e2e8f0;">
+      <i class="fas fa-quote-left" style="font-size: 2rem; color: var(--text-blue); margin-bottom: 15px;"></i>
+      <p style="font-size: 1.2rem; font-style: italic; font-weight: 500; color: #333;">
+        "We study physics to solve problems in physics, chemistry to solve problems in chemistry... We use statistics to provide a course of action with minimum risk in all areas of human endeavor with unavailable evidence."
+      </p>
+      <p style="margin-top: 15px; font-weight: 700; color: #777;">— Prof. C.R. Rao</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+      <div class="card" style="animation-delay: 0.4s; margin-bottom: 0;">
+        <h2><i class="fas fa-microscope" style="color: var(--text-blue);"></i> Our Research</h2>
+        <p>We maintain an incessant focus on innovation, design, and development with industrial relevance. Our core research areas include:</p>
+        <ul style="list-style-type: none; margin-top: 15px; padding-left: 10px;">
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--text-blue); margin-right: 8px;"></i> Advanced Cryptography</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--text-blue); margin-right: 8px;"></i> Cyber Security</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--text-blue); margin-right: 8px;"></i> Quantum Communications</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--text-blue); margin-right: 8px;"></i> AI & Machine Learning</li>
+        </ul>
+      </div>
+
+      <div class="card" style="animation-delay: 0.5s; margin-bottom: 0;">
+        <h2><i class="fas fa-graduation-cap" style="color: var(--text-blue);"></i> Academics</h2>
+        <p>AIMSCS houses state-of-the-art laboratories to perform high-end research and offers specialized academic programs:</p>
+        <ul style="list-style-type: none; margin-top: 15px; padding-left: 10px;">
+          <li style="margin-bottom: 10px;"><i class="fas fa-laptop-code" style="color: var(--text-blue); margin-right: 8px;"></i> <strong>B.Tech</strong> in Computer Science and Engineering</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-shield-alt" style="color: var(--text-blue); margin-right: 8px;"></i> <strong>M.Tech</strong> in Cyber Security</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-network-wired" style="color: var(--text-blue); margin-right: 8px;"></i> <strong>M.Tech</strong> in Communication Systems & Machine Learning</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CRRAO AIMSCS Alumni Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

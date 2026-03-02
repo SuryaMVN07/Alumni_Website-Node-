@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - CRRAO Alumni</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="top-banner">
+      <div class="container top-banner-container">
+        <div class="banner-left">
+          <a href="home.html"><img src="crraologo.jpeg" alt="CRRAO Logo" class="banner-logo"></a>
+        </div>
+        <div class="banner-center">
+          <h1 class="institute-name">C.R.Rao Advanced Institute of Mathematics,<br>Statistics and Computer Science (AIMSCS)</h1>
+          <p class="institute-address">University of Hyderabad Campus, Gachibowli, Hyderabad – 500 046</p>
+        </div>
+        <div class="banner-right">
+          <img src="https://crraoaimscs.res.in/assets/team/CR_RAO_Profile.png" alt="Prof. C.R. Rao" class="banner-photo">
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="container nav-container">
+        <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+          <li><a href="home.html">HOME</a></li>
+          <li class="has-dropdown">
+            <a href="#">PROFILE <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="profile.html">UPDATE PROFILE</a>
+              <a href="signin.html">SIGN IN</a>
+              <a href="register.html">REGISTER</a>
+            </div>
+          </li>
+          <li><a href="events.html" class="active">EVENTS</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="card hero-card" style="padding: 40px 30px;">
+      <h1>Upcoming Events</h1>
+      <p>Join us at our exclusive alumni gatherings and tech meetups.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+      <div class="card" style="animation-delay: 0.2s; margin-bottom: 0;">
+        <h2>Annual Tech Meetup</h2>
+        <p style="color: var(--text-muted); margin-bottom: 15px;"><i class="far fa-calendar-alt"></i> Jan 1st, 2024 <br><i class="fas fa-map-marker-alt"></i> Main Campus Auditorium</p>
+        <p>A great opportunity to network with fellow computer science and data science alumni.</p>
+        <a href="#" class="btn" style="margin-top: 15px; width: 100%;">RSVP Now</a>
+      </div>
+
+      <div class="card" style="animation-delay: 0.3s; margin-bottom: 0;">
+        <h2>Guest Lecture: AI Trends</h2>
+        <p style="color: var(--text-muted); margin-bottom: 15px;"><i class="far fa-calendar-alt"></i> Feb 12th, 2024 <br><i class="fas fa-map-marker-alt"></i> Virtual (Zoom)</p>
+        <p>An insightful session regarding the upcoming revolutions in Artificial Intelligence and Machine Learning.</p>
+        <a href="#" class="btn" style="margin-top: 15px; width: 100%;">RSVP Now</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CRRAO AIMSCS Alumni Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
